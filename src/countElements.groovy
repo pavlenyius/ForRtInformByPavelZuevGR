@@ -6,7 +6,7 @@ def countElements(List<Integer> arr) {
   return result
 }
 
-// Пример использования
-def arr = [1, 3, 4, 5, 1, 5, 4] // Используем список, а не массив
+
+def arr = [1, 3, 4, 5, 1, 5, 4]
 def result = countElements(arr)
-println(result) // Вывод: [1:2, 3:1, 4:2, 5:2]
+println(result)
